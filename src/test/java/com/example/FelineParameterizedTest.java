@@ -29,8 +29,6 @@ public class FelineParameterizedTest {
     @Test
     public void shouldBeKittensCount() {
         Feline feline = new Feline();
-        int actualResult = kittensCount;
-        int expectedResult = kittensCountExpected;
-        Assert.assertEquals(kittensCount, kittensCountExpected);
+        Assert.assertEquals(1,feline.getKittens());
     }
 }
